@@ -4,7 +4,7 @@ package pe.edu.upeu.modelo;
 import lombok.Getter;
 import lombok.Setter;
 
-@Getter @Setter
+@Identifier @Identifier
 public class ProductoTO {
    public String idProd; 
    public String nombre; 
@@ -12,4 +12,4 @@ public class ProductoTO {
    public double precio;
    public double utilidad;
    public int stock;
-   public String unidadMed;
+   public String unidadMed; }

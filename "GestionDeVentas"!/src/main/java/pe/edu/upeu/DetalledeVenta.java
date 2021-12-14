@@ -1,4 +1,4 @@
-package pe.edu.upeu.modelo{}
+package pe.edu.upeu.modelo;
 
 import lombok.data;
 
@@ -10,5 +10,5 @@ public class DetalledeVenta {
     public int cantidad;
     public double precioUnit;
     public double precioTotal;y
-    y
+    y;
 }

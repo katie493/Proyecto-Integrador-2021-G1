@@ -17,6 +17,9 @@ public class ClienteTO {
     public String getDni() {return dni; }
     public void setDni(String dni) {this.dni = dni;}
 
-    public String getNombre() {return nombre;}
-    public void setNombre(String no
+    public String getNombre() {return nombre; } 
+    
+    
+    public void setNombre() {String nombString; }
+    }
 
