@@ -12,8 +12,8 @@ ProductoDao prodDao;
         System.out.println("----------------Bienvenido al Sistema---------------");
         String msg="\nEliga una opcion"+ 
         "\n1=Crear Producto"+
-        "\n2=Listar Producto"
-        ;
+        "\n2=Listar Producto"+
+        "\n";
      
         opcionesA=lt.leer(0, msg);  
         while(opcionesA!=0){

@@ -23,7 +23,7 @@ BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
   public double leer(double val, String msg){
     System.out.print(msg+":");
   try{
-       val=Double.parseDouble(br.readLine());
+       val=Double.parseDouble(br.readLine().toString());
     }catch(Exception e){
      val=leer(val,msg);
     }System.out.println();
